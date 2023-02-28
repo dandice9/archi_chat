@@ -32,7 +32,7 @@ defineProps<{
                                 </span>
                             </div>
                         </div>
-                        <div>user {{Math.ceil(Math.random() * 1000)}}</div>
+                        <div>{{ chat_message.name }}</div>
                     </div>
                 </div>
             </div>
